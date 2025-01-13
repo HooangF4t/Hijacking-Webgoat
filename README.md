@@ -1,5 +1,4 @@
 # Hijacking-Webgoat
-A1 Hijacking
 A1:Chiếm đoạt một phiên 
 - Khái niệm: Các nhà phát triển ứng dụng phát triển ID phiên của riêng họ thường quên kết hợp sự phức tạp và ngẫu nhiên cần thiết cho bảo mật. Nếu ID phiên cụ thể của người dùng không phức tạp và ngẫu nhiên, thì ứng dụng rất dễ bị tấn công brute force dựa trên phiên.
 - Mục tiêu: Có quyền truy cập vào phiên đã xác thực thuộc về người khác.
