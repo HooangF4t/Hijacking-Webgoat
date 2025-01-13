@@ -7,12 +7,10 @@ A1:Chiếm đoạt một phiên
 tới chỗ thử thách xem hint
 Ctrl + shift + i -> strorage -> cookies
 copy value của thk JSESSIONID sẽ dùng tới sau
-b1: tải www.cygwin.com - nếu không biết setuo thì có thể tham khảo tại đây https://courses.cs.washington.edu/courses/cse154/19sp/resources/assets/shells/cygwin.html
-recommend https://download.nus.edu.sg (sing hoặc đài loan https://ftp.ntu.edu.tw)
-b2: lấy tệp hacking.sh - https://github.com/tuyendt0112/hijacking hoặc bản tùy chỉnh của mình
-https://github.com/HooangF4t/Hijacking-Webgoat/tree/main
-b3: Lấy JSESSION lúc nãy để thay vào
-b4: mở cygdrive
-b5: cmd di chuyển tới chỗ lưu tệp hacking.sh - cd D:/1\ GDU/Inprogress/An\ toan\ thuong\ mai\ dien\ tu/Webgoat/hijacking-main
-b6: Thay đổi thông tin trong tệp hacking.sh (chỗ này là tài khoản mật khẩu và JSESSIONID
-b7: chạy file sh hacking.sh
+- b1: tải www.cygwin.com - nếu không biết setuo thì có thể tham khảo tại đây https://courses.cs.washington.edu/courses/cse154/19sp/resources/assets/shells/cygwin.html tôi recommend https://download.nus.edu.sg (sing hoặc đài loan https://ftp.ntu.edu.tw).
+- b2: lấy tệp hacking.sh - https://github.com/tuyendt0112/hijacking hoặc bản tùy chỉnh của mình https://github.com/HooangF4t/Hijacking-Webgoat/tree/main
+- b3: Lấy JSESSION lúc nãy để thay vào
+- b4: mở cygdrive
+- b5: cmd di chuyển tới chỗ lưu tệp hacking.sh - cd D:/1\ GDU/Inprogress/An\ toan\ thuong\ mai\ dien\ tu/Webgoat/hijacking-main
+- b6: Thay đổi thông tin trong tệp hacking.sh (chỗ này là tài khoản mật khẩu và JSESSIONID
+- b7: chạy file sh hacking.sh
