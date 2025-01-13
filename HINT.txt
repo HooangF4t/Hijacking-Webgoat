@@ -1,0 +1,19 @@
+HINT
+- Kiểm tra giá trị cookie 'hijack_cookie' và suy nghĩ về định dạng của nó.
+- 'hijack_cookie' được chia thành hai phần và có định dạng sau '"số dài"-"số dài khác"'.
+- 'hijack_cookie' được chia thành hai phần và có định dạng sau '"số thứ tự"-"thời đại kỷ nguyên unix"'.
+- Cố gắng gửi nhiều yêu cầu để buộc tạo cookie mới và kiểm tra xem có bất kỳ mẫu nào không.
+- Đôi khi, người dùng được ủy quyền đăng nhập vào ứng dụng.
+
+Ví dụ:
+8660479347003875305-1736740800453
+8660479347003875306-1736740800210
+
+8660479347003875308-1736740816988
+
+Số cuối cùng của ID phiên tăng một, ngoại trừ trong một số trường hợp chúng tăng lên hai
+==> điều này cho thấy rằng người dùng đã đăng nhập trong khoảng thời gian đó.
+
+Dựa trên gợi ý thì ta có thể đoán rằng số sau "hijack_cookie" là dấu thời gian. Để có được "hijack_cookie" của một người dùng ẩn danh, ta có thể xem xem các chữ số thay đổi của phần đầu tiên của "hijack_cookie" để tìm nửa đầu của người dùng. Nửa sau là dấu thời gian cần brute force trong một phạm vi cụ thể dựa trên chênh lệch thời gian đăng nhập của người dùng.
+
+
